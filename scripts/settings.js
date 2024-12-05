@@ -47,9 +47,9 @@ cision.websolution.settings = {
         maxAmountOfItems: 10, // max amount of items a user can order in one request
 
         // Ticker specific settings
-        tickerImageMinus: "https://images.woodstudio.se/arrow-down-right.svg",
-        tickerImagePlus: "https://images.woodstudio.se/arrow-up-right.svg",
-        tickerImageUnchanged: "https://images.woodstudio.se/arrow-right.svg",
+        tickerImageMinus: "https://raw.githubusercontent.com/billypaarts/beijerref/refs/heads/main/images/arrow-down-right.svg",
+        tickerImagePlus: "https://raw.githubusercontent.com/billypaarts/beijerref/refs/heads/main/images/arrow-up-right.svg",
+        tickerImageUnchanged: "https://raw.githubusercontent.com/billypaarts/beijerref/refs/heads/main/images/arrow-right.svg",
 
         //Share calculator specific settings
         startDateYear: 2007,

@@ -1,0 +1,113 @@
+/**********************************************************************************************************************/
+/********************************************* Share calculator styles ************************************************/
+/**********************************************************************************************************************/
+
+#shareHeader {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .sharecalclulator-container input[type=radio] {
+        margin: 4px 0 0;
+    }
+
+    .sharecalclulator-container fieldset {
+        margin-top: 5px;
+        border: 1px solid #e5e5e5;
+        border-radius: 4px;
+        padding: 10px;
+        clear: both;
+    }
+
+    .sharecalclulator-container legend {
+        margin-bottom: 0px;
+        color: #569fca;
+        width: auto;
+        border-bottom: none;
+    }
+
+    .sharecalclulator-container table td {
+        padding: 4px 10px 4px 0px;
+        /*width: 110px;*/
+    }
+
+    .sharecalclulator-container .fullsize {
+        width: 100%;
+    }
+
+    .sharecalclulator-container .bold {
+        font-weight: 700;
+    }
+
+    .sharecalclulator-container .amount {
+        width: 100%;
+    }
+
+    .sharecalclulator-container .first {
+        width: 200px;
+    }
+
+    .sharecalclulator-container .valuesSeparator {
+        margin-top: 10px;
+    }
+
+    .sharecalclulator-container .helptext {
+        font-style: italic;
+        font-size: 13px;
+    }
+
+    .sharecalclulator-container #csvExport {
+        margin-left: 10px;
+    }
+
+    .sharecalclulator-container .history-download {
+        margin-top: -15px;
+    }
+
+    .sharecalclulator-container .compute-button {
+        margin-top: 10px;
+    }
+
+    .sharecalclulator-container .share-help-container {
+        margin-top: 15px;
+    }
+.sharecalclulator-container .share-help-container p {
+    margin-bottom: 10px;
+}
+
+    .sharecalclulator-container .results-right {
+        width: 49%;
+        float: left;
+    }
+
+    .sharecalclulator-container .results-left {
+        width: 49%;
+        float: left;
+        margin-left: 10px;
+        border-left: 1px solid #e5e5e5;
+    }
+
+    .sharecalclulator-container .border {
+        margin-left: 10px;
+    }
+
+    .sharecalclulator-container h4 {
+        margin-bottom: 5px;
+    }
+
+.sharecalclulator-container .row {
+    padding: 5px 0;
+    margin-left: 0;
+}
+    .sharecalclulator-container .row .col-6, .sharecalclulator-container .row .col {
+        padding-right: 30px;
+        padding-left: 0px;
+    }
+    .sharecalclulator-container .row .col-6:last-child {
+        padding-right: 0;
+    }
+
+#end-value {
+    margin-left: 10px;
+}

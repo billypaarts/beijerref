@@ -1,0 +1,175 @@
+/**********************************************************************************************************************/
+/************************************************** General styles ****************************************************/
+/**********************************************************************************************************************/
+
+a {
+    color: #337ab7;
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+.datepicker-dropdown {
+    margin-left: -40px;
+    margin-top: 25px;
+}
+
+.container > div {
+    margin: 20px auto 20px auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.small-content {
+    display: flex;
+    justify-content: center;
+}
+
+.table-sm {
+    margin-top: 20px;
+    border-bottom: 1px solid #dee2e6
+}
+
+    .table thead th {
+        border-top: none;
+    }
+
+    .table td {
+        vertical-align: baseline;
+    }
+
+        .table td > .form-group, .table td p {
+            margin-bottom: 0;
+        }
+
+.tab-content {
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 20px;
+    border-bottom: 1px solid #dddbdb;
+    border-left: 1px solid #dddbdb;
+    border-right: 1px solid #dddbdb;
+}
+
+.pageIndex {
+    clear: both;
+}
+
+.extras {
+    margin-top: 10px;
+    width: 20%;
+    float: right;
+}
+
+.required, .required-text {
+    margin-right: 10px;
+    color: #ce0202;
+}
+
+.required-text {
+    margin-bottom: 10px;
+}
+
+.card-columns {
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5;
+}
+
+.text-small {
+    font-size: 7pt;
+}
+
+
+.subscribeInfo {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+.mail {
+    margin-top: 10px;
+    clear: both;
+    padding-right: 50px;
+    margin-bottom: 20px;
+}
+
+    .mail .form-control {
+        margin-bottom: 10px;
+    }
+
+    .mail #sendForm {
+        margin-top: 10px;
+    }
+
+/********************************************* Orderbook styles ****************************************************/
+/* used in several places and are so few so its not necessary to have in its own file */
+.orderbook-table td, .orderbook-table th {
+    text-align: right;
+}
+
+    .orderbook-table td:nth-child(1), .orderbook-table td:nth-child(2), .orderbook-table th:nth-child(1), .orderbook-table th:nth-child(2) {
+        text-align: left;
+    }
+
+
+/********************************************************* Ticker styles *******************************************************/
+/* used in several places and are so few so its not necessary to have in its own file */
+
+#target-ticker img {
+    width: 25px;
+}
+
+.ticker-large td:nth-child(odd) {
+    padding-right: 30px;
+}
+
+.ticker-price {
+    font-size: 25pt;
+    color: #569fca; /* default, will not be used if the bootstrap classes are present and working */
+    font-weight: bold;
+}
+
+.ticker-large td {
+    font-weight: 600;
+}
+
+.small-ticker p {
+    margin-bottom: 5px;
+}
+
+.small-ticker .delta {
+    margin-top: 3px;
+}
+
+.small-ticker img {
+    margin-left: 20px;
+}
+
+
+
+/********************************************* NewsFeed styles ****************************************************/
+
+.news-feed-release-title {
+    font-size: 1.5rem;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+
+/********************************************* TotalReturn styles ****************************************************/
+.btn-grey {
+    color: white;
+    background-color: #666666;
+}
+
+.btn-green {
+    color: white;
+    background-color: green;
+}

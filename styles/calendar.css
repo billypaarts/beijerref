@@ -1,0 +1,98 @@
+/**********************************************************************************************************************/
+/************************************************** Calendar styles ***************************************************/
+/**********************************************************************************************************************/
+
+.attachments, .dateTime {
+    margin-top: 20px;
+    margin-right: 60px;
+    float: left;
+}
+
+.addToCalendar .fa-calendar {
+    color: #000;
+    font-size: 35pt;
+}
+
+.fa-plus {
+    border-radius: 30px;
+    margin-left: -15px;
+    background-color: #FFF;
+}
+
+a.cal:hover > .fa-plus {
+    color: #04dd08;
+}
+
+#event {
+    width: 60%;
+    margin: 10px auto;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.event-content img {
+    float: left;
+    margin-right: 10px;
+}
+
+.event-content .date {
+    font-size: 10pt;
+    font-style: italic;
+}
+
+.event-content h2 {
+    font-size: 18pt;
+}
+
+#event .back-link a {
+    padding: 3px 15px;
+    background: #CCC;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+#event .back-link {
+    margin-top: 10px;
+}
+
+.first-event img {
+    float: left;
+    margin-right: 20px;
+}
+
+.first-event .pubDate p {
+    font-size: 9pt;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.first-event a {
+    color: #000;
+}
+
+.first-event h2 {
+    margin-bottom: 20px;
+}
+
+#target-categories h2 {
+    margin-bottom: 20px;
+}
+
+#target-categories {
+    margin-bottom: 20px;
+}
+
+.addToCalendar {
+    display: block;
+    padding-top: 45px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-inline {
+    margin-bottom: 15px;
+}

@@ -1,0 +1,103 @@
+/**********************************************************************************************************************/
+/************************************************** Sharegraph styles *************************************************/
+/**********************************************************************************************************************/
+
+#target-sharegraph-wrapper {
+    margin-top: -20px;
+}
+
+#sharegraph-container {
+    height: 500px;
+    width: 100%;
+    background-color: #f2f7fb;
+    padding: 2rem;
+}
+
+/* small sharegraph */
+#mini-sharegraph #sharegraph-container {
+    margin: 20px auto;
+    height: 150px;
+    width: 500px;
+}
+
+/* Horisontal ticker *******************************************/
+
+#horisontal-ticker {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+ #horisontal-ticker th {
+     border-bottom: 1px solid #CCC;
+     text-align: left;
+ }
+
+ #horisontal-ticker td, #horisontal-ticker th {
+     padding: 5px 10px;
+ }
+
+ #horisontal-ticker th.image {
+     border-bottom: none;
+ }
+
+ #horisontal-ticker th.image img {
+     width: 40px;
+     margin-bottom: -28px;
+     padding-right: 2px;
+ }
+
+
+/***************************************** Sharegraph extras ***********************************************/
+
+
+.prev:hover, .next:hover {
+    cursor: pointer !important;
+}
+
+.row {
+    padding: 25px 15px 25px 5px;
+    margin-left: 0px;
+}
+
+.dropdown {
+    float: left;
+    margin-right: 1rem;
+}
+
+.sharegraph-extras .date-picker {
+    float: left;
+    margin-left: 1rem;
+    width: 200px;
+}
+
+#share-options-select li a, #share-download-options li a {
+    min-width: 220px;
+    color: #333;
+    margin-right: 40px;
+}
+
+#share-options-select li.cision-disabled a {
+    color: grey;
+}
+#share-options-select li.cision-disabled:hover, #share-options-select li.cision-disabled:hover a {
+    cursor: default;
+}
+
+#share-options-select li .fa-check {
+    display: none;
+    float: right;
+    margin-top: 4px;
+}
+
+#share-options-select li.selected .fa-check {
+    display: inline-block;
+}
+
+.performance-table td:first-child {
+    font-weight: 500;
+}
+
+.sharegraph-extras {
+    margin-top: 10px;
+}
